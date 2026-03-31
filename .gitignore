@@ -1,3 +1,4 @@
+# Jekyll and project build artifacts
 _site
 .bundle
 .DS_store
@@ -13,3 +14,6 @@ assets/rendercv/rendercv_output/*.typ
 Gemfile.lock
 node_modules/
 vendor
+
+# Ignore Visual Studio workspace files to avoid permission and locking issues
+.vs/
